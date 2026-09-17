@@ -1,6 +1,11 @@
-a = 01
-b = 20
+public class Main {
+    public static void main(String[] args) {
 
-sum = a + b
+        int a = 10;
+        int b = 20;
 
-print("Sum =", sum)
+        int sum = a + b;
+
+        System.out.println("Sum: " + sum);
+    }
+}
